@@ -29,4 +29,4 @@ plot \
 pt 7 ps ptSize title "calling fftw library from Zig program", \
 \
 "../results/fftw_c.csv" using 9:2 with linespoints ls 2 lw LW \
-pt 7 ps ptSize title "calling fft library from C program"
+pt 7 ps ptSize title "calling fftw library from C program"
