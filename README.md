@@ -3,7 +3,10 @@ Example of Zig calls to FFTW are slower than C calls to FFTW
 
 Zig slower than C when calling FFTW libraries.
 
-To see timing results,
+![comparison](https://github.com/user-attachments/assets/e4d109a7-d6c7-424e-b8e3-94827ea2f992)
+
+
+To recreate timing results,
 
 Dependencies:
 
