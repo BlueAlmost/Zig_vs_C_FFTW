@@ -1,5 +1,12 @@
 # Zig_vs_C_FFTW
 
+# PLEASE IGNORE THIS ISSUE.  The apparent speed difference was due the zig version and the c version were calling different versions of the fftw library.
+
+# After removing the 2nd libfftw3 library, perfect agreement of timing results is acheived.
+
+# Leaving this repository as is for a while for any curious persons.
+
+
 Zig slower by factor of 2.
 
 Zig calls to FFTW are slower than C calls to FFTW.
